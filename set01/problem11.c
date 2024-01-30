@@ -20,6 +20,7 @@ int main()
 Complex input_complex()
 {
     Complex r;
+    printf("Enter the complex numbers:");
     scanf("%f%f",&r.real,&r.imaginary);
     return r;
 }
