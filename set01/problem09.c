@@ -19,7 +19,7 @@ float input()
 }
 float square_root(float n){
     float x=n/2;
-    float y=0.00001;
+    float y=0.0001;
 
     while ((x*x-n)>y || (n-x*x)>y)
     {
