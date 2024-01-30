@@ -7,21 +7,22 @@ int main()
     int a,b;
     input(&a,&b);  
     int sum=0;
-    add(&a,&b,&sum);
-    output(&a,&b,&sum);
+    add(a,b,&sum);
+    output(a,b,sum);
+    return 0;
 }
 void input(int *a, int *b)
 {
-    int x;
-    printf("Enter the numbers : \n");
-    scanf("%d",&x);
+  printf("Enter the first number: ");
+  scanf("%d",a);
+  printf("Enter the second number: ");
+  scanf("%d",b);
 }
 void add(int a, int b, int *sum)
 {
-    int sum=0;
-    sum=a+b;
+    *sum=a+b;
 }
 void output(int a, int b, int sum)
 {
-    printf("The sum is %d\n", &sum);
+    printf("The sum is %d\n", sum);
 }
