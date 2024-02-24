@@ -16,15 +16,15 @@ int input() {
     return num;
 }
 int find_gcd(int a, int b) {
- int temp;
- while(b!=0){
-    temp=b;
-    b=a%b;
-    a=temp;
- }  
- return a;
+    int gcd = 1;
+    for(int i=1;i<a && i<b/2+1;i++) {
+        if(a%i==0 && b%i==0){
+            gcd=i;
+      
+        }
     }
-
+ return gcd;
+}
 void output(int a, int b, int gcd){
     printf("gcd: %d",gcd);
 }
