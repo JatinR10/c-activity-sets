@@ -1,0 +1,18 @@
+GNU gdb (GDB) 7.6.1
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "mingw32".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from C:\Users\jatin\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets\set02\a.exe...done.
+(gdb) r
+Starting program: C:\Users\jatin\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets\set02/a.exe
+[New Thread 33372.0x650c]
+[New Thread 33372.0x71b4]
+Enter base: 12
+Enter altitude: 10
+The area of the traingle with base 12.000000 and height 10.000000 is 60.000000[Inferior 1 (process 33372) exited normally]
+(gdb) q
